@@ -1,0 +1,2 @@
+POST http://localhost:3001/userscreate
+Content-Type: application/json

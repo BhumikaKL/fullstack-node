@@ -1,0 +1,31 @@
+{
+  "name": "fullstack-node",
+  "version": "1.0.0",
+  "description": "Full Stack NodeJS Project",
+  "homepage": "https://github.com/BhumikaKL/fullstack-node#readme",
+  "bugs": {
+    "url": "https://github.com/BhumikaKL/fullstack-node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhumikaKL/fullstack-node.git"
+  },
+  "license": "MIT",
+  "author": "Bhumika K L",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "express": "^4.21.1",
+    "http-status-codes": "^2.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
