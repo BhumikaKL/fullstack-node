@@ -1,1 +1,1 @@
-GET http://localhost:3001/node js/?order=asc
+GET http://localhost:3001/users/admin/active/?order=asc&limit=10&page=1
